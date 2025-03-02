@@ -1,0 +1,31 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 20px 150px;
+    font-family: "Instrument Sans", serif;
+    font-size: 30px;
+
+    & .container {
+        display: flex;
+        font-family: "Instrument Sans", serif;
+        gap: 50px;
+
+        & .lado-esquerdo {
+            display: flex;
+            flex-direction: column;
+            gap: 120px;
+            font-size: 20px;
+            text-align: left;
+            justify-content: center;
+
+            & button {
+                background-color: #878787;
+                font-size: 20px;
+                padding: 15px 20px;
+                width: 200px;
+                border-radius: 10px;
+            }
+        }
+    }
+}
