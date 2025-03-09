@@ -5,4 +5,40 @@
     padding: 20px 150px;
     font-family: "Instrument Sans", serif;
     font-size: 30px;
+
+    & .telefone{
+            display: flex;
+            flex-direction: center;
+            gap: 25px;
+            font-size: 25px;
+            text-align: center;
+            align-items: center;
+    }
+
+    & .mail {
+        display: flex;
+        flex-direction: center;
+        gap: 25px;
+        font-size: 25px;
+        text-align: center;
+        align-items: center;        
+    }
+
+    & .facebook {
+        display: flex;
+        flex-direction: center;
+        gap: 25px;
+        font-size: 25px;
+        text-align: center;
+        align-items: center;
+    }
+
+    & .instagram {
+        display: flex;
+        flex-direction: center;
+        gap: 25px;
+        font-size: 25px;
+        text-align: center;
+        align-items: center;
+    }
     }
